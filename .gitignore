@@ -1,0 +1,29 @@
+# Swift Package Manager build artifacts
+/.build/
+/.build-*
+
+# SwiftPM Xcode workspace & user data
+/.swiftpm/xcode/*
+!.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcworkspace
+*.xcuserdata/
+*.xcuserdatad
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+
+# macOS
+.DS_Store
+
+# Other common IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Misc
+*.lock
